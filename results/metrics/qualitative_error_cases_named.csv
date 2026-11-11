@@ -1,0 +1,7 @@
+Case Type,Record Index,Error Reduction,True Genres,Text Predictions,Early Predictions,Corrected Labels,Introduced Errors,Text Error Count,Early Error Count
+Improved,5563,7,"Drama, Comedy, Sci-Fi","Drama, Comedy, Thriller, Adventure, Mystery, Sci-Fi, Music, Fantasy, Animation, Short","Drama, Comedy, Sci-Fi","Thriller, Adventure, Mystery, Music, Fantasy, Animation, Short",,7,0
+Improved,19233,6,"Comedy, Action, Adventure, Music, Fantasy, Animation","Drama, Comedy, Thriller, Action, Sci-Fi","Comedy, Action, Adventure, Sci-Fi, Music, Fantasy, Animation","Drama, Thriller, Adventure, Music, Fantasy, Animation",,7,1
+Improved,16858,5,Horror,"Drama, Comedy, Action, Adventure, Music, Animation","Adventure, Horror, Music","Drama, Comedy, Action, Horror, Animation",,7,2
+Worsened,19167,-5,"Drama, Comedy, Action, Adventure, Sci-Fi, Fantasy, Animation","Drama, Comedy, Action, Adventure, Sci-Fi, Fantasy, Animation","Comedy, Romance, Adventure, Sci-Fi, Music, Fantasy",,"Drama, Romance, Action, Music, Animation",0,5
+Worsened,17584,-4,"Drama, Comedy, Romance","Drama, Comedy, Romance","Drama, Thriller, Horror",,"Comedy, Romance, Thriller, Horror",0,4
+Worsened,16686,-4,"Drama, Thriller, Crime, Horror, Mystery","Drama, Thriller, Crime, Horror, Mystery","Drama, Comedy, Romance, Thriller, Mystery",,"Comedy, Romance, Crime, Horror",0,4

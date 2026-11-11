@@ -1,0 +1,24 @@
+# Raw dataset and cached embeddings
+*.npy
+*.npz
+
+# Preserve small reproducibility split files
+!splits/
+!splits/*.npy
+!splits/*.npz
+
+# Trained models and scalers
+*.pt
+*.pth
+*.joblib
+
+# Temporary and local files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+.DS_Store
+*.tmp
+*.partial
